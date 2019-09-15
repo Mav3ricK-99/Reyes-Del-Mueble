@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+  font-family: 'Raleway';
+  src:url('../fonts/Raleway-Regular.ttf');
+}
+@font-face {
+  font-family: 'Lato';
+  src:url('../fonts/Lato.ttf');
+}
+body{
+    background-image: url(../Imagenes/body.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    display: flex;
+    flex-direction:column;
+	justify-content: center;
+	margin: 0 auto;
+	
+}  
+
+#section1{
+    display: flex;
+    padding-top: 1.5%;
+    flex-direction: column;
+	justify-content: flex-start;
+    background: rgba(252, 253, 250, 0.83);
+    min-height: 500px;
+} 
+.oform{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 3em;
+	margin-top: 50px;
+	
+}
+.oform input
+{
+	padding: 3px;
+	font-size: 18px;
+	margin-left: .6em;
+	outline: none;
+}
+.oform #oti
+{
+	font-size: 28px;
+	font-family: 'Raleway';
+	padding: 9px;
+}
+.oform ul
+{
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	padding-left:.6em;
+	font-family: 'Lato';
+	list-style: none;
+	background: rgba(246, 246, 246, 0.83);
+	color: gray;
+}
+.oform a{
+	color: rgba(40, 40,40, 0.83);
+	text-decoration: none;
+}
+.oform a:visited{color: rgba(40, 40, 40, 0.83);}
+#form44
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 320px;
+}
+#form44 input[type="submit"]
+{
+	margin-top: .5em;
+	width: 100px;
+	border: none;outline: none;
+	color: #00C6EE;
+	padding: 8px;
+	background: #272727;
+	border: 1px solid #272727;
+}
+
+#form44 input[type="submit"]:hover
+{
+	border: none;outline: none;
+	color: white;
+	border: 1px solid white;
+	transition: .6s all;
+}
+#error2
+{
+	font-family: 'Lato';
+	color: gray;
+	padding-top: .5em;
+	margin-left: .6em;
+}
+@media screen and (max-width: 720px)
+	{
+		.oform{
+			margin-left: 0;
+		}
+		.oform input[type="text"]
+		{
+			width: 300px;
+		}
+		
+	}

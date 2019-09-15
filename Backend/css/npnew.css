@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'xd';
+  src:url('../../fonts/SourceSansPro-Regular.ttf');
+}
+@font-face {
+  font-family: 'Lato';
+  src:url('../../fonts/Lato-Regular.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+    background: #FAFAFA;
+}
+.table-title {
+  display: flex;
+  justify-content: center;    
+  padding:5px;
+}
+.table-title h3 {
+   color: #4E5066;
+   font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-shadow: -1px -1px .8px rgba(39, 39, 39, 0.25);
+   text-transform:uppercase;
+}
+#mt
+{
+	margin-top: 2em;
+}
+.pform
+{	
+	box-shadow: 0px 11px 17px -11px rgba(39,39,39,0.56);
+	max-width: 50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+#form
+{
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+textarea{
+	outline: none;border:none;margin-bottom: 1em;
+}
+#form h3
+{	color: #272727;
+	padding: 15px;
+	font-size: 26px;
+	font-family: "xd";
+	padding-left: 0;
+	transition: all .6s ease;
+}
+#form h3:hover
+{
+	color: #282829;
+	padding-left: 10px;
+	transition: all .6s ease;
+}
+#form input[type="text"]
+{	font-family: "Lato";
+	padding: 5px;
+	font-size: 17px;
+	color: #272727;
+	width: 500px;
+	background: #fbfbfb;
+	border: 1.5px solid rgba(80,80,80,.5);
+	outline: none;margin-bottom: .4em;
+	box-shadow: 10px 9px 11px -10px rgba(0,0,0,0.5);
+	transition: all .6s ease;
+}
+#form textarea
+{	font-family: "Lato";
+	resize: none;
+	border: 1.5px solid rgba(80,80,80,.5);
+	font-size: 17.5px;
+	background: #fbfbfb;
+	padding: 4.5px;
+	color: #272727;
+	min-height: 240px;
+	box-shadow: 10px 9px 11px -10px rgba(0,0,0,0.5);
+	transition: all .2s ease;
+}
+#form textarea:hover, #form input[type="text"]:hover{
+	border: 1.5px solid rgba(80,80,80,.8);
+	box-shadow: 7px 9px 11px -10px rgba(0,0,0,0.65);
+}
+#form input[type="submit"]
+{
+	outline: none;border: none;
+	padding: 6px;
+	background: #272727;
+	border: 1.5px solid #f3f3f3;
+	color: #f3f3f3;
+	font-size: 22.5px;
+	font-family: "xd";
+	width: 190px;
+	margin-bottom: 1.3em;
+	align-self: flex-start;
+}
+#form input[type="submit"]:hover
+{
+	background: #f3f3f3;
+	border: 1.5px solid #272727;
+	color: #272727;
+	transition: all .5s ease;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,444 @@
+@font-face {
+  font-family: 'Josefin Sans';
+  src:url('../fonts/JosefinSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'Lato';
+  src:url('../fonts/Lato-Regular.ttf');
+}
+.header2{
+	width: 100%;
+	height:60px;
+    display:flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    background:rgba(253, 253, 253, .92);
+   
+}
+.header2 .logofinal{width: 240px;height: 60px;}
+#logo{
+	display: flex;justify-content: flex-start;
+	width: 100%;
+	flex-wrap: nowrap;
+	 
+}
+#usern
+{
+	user-select: none;
+}
+.cuenta .cul{
+	position: absolute;
+	z-index: 10;
+	top: 60px;
+	list-style: none;
+	padding: 8.4px;
+	background:rgba(253, 253, 253, .92);
+	margin-left: 10px;
+	display: flex;
+	justify-content: center;
+	width: 650px;
+}
+.cuenta .cul:hover, .cuenta .cul il:hover{background:rgba(250, 250, 250, 1);transition: 1s all}
+#usern{
+	font-weight: 650;
+	letter-spacing: 1.3px;
+	
+}
+#submenuconfig
+	{ 
+	display:none;
+    position:absolute;
+	list-style: none;
+	}
+#submenuconfig li
+	{
+	line-height: 30px;
+	height: 40px;
+	background:rgba(247, 247, 247, .92);
+	width: 140px;
+	padding: 5px;
+	
+	}
+#noti{
+	min-width: 160px;
+}
+.cul li{text-align:center;}
+.cul li ul li{text-align:left;}
+#subnotii{
+	display:none;
+    position:absolute;
+	list-style: none;
+}
+#subnotii li 
+{
+	height: auto;
+	background:rgba(247, 247, 247, .92);
+	width: 100%;
+	padding: 5px;
+	max-width: 170px;
+	font-size: 17px;
+	
+}
+.cuenta2{display:none}
+.cuenta{
+    display:inherit;
+    font-family: 'Lato';
+	color: rgba(120,120, 120, .95);
+	font-size: 18px;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+.cul a{
+	font-size: 17.5px;
+	text-decoration: none;
+	color: rgba(120,120, 120, .95);
+	height: 30px;
+	padding: 5px;
+}
+.cul a:hover
+{
+	color: rgba(100,100, 100, .95);
+	transition: all 1s;
+}
+.cul hr{margin-left: .2em;margin-right: .2em;}
+.sticky {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  background:rgba(254, 254, 254, .98);
+  width: 100%;
+}
+
+.header2.sticky + .contenedor-slider {
+  padding-top: 61px;
+}
+.header2.sticky + #section1 {
+  padding-top: 61px;
+}
+#h2s
+{	color: white;
+	font-size: 18px;
+	font-family:'Lato', Arial;
+	padding: 0px 0px 10px 2px;
+}
+
+.errorsmg{
+	width: 100%;
+	color: white;
+	font-size: 15px;
+	font-family: arial;
+	padding: 1.8px;
+	border: 3px solid rgba(250,80,80,0.75);
+	line-height: 17px;
+	display: flex;
+	justify-content: center; 
+	margin-bottom: 7px;
+}
+
+.login{
+	float: right;
+	display: none;
+	flex-direction: column;
+	margin-top: 16px;
+	margin-right: 10px;
+	width: 265px;
+	height: 290px;
+	border-radius: 0px 0px 7px 7px;
+	padding: 12px;
+	background:rgb(60, 130, 220);
+}
+  .login:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom: 0;
+  }
+
+    .login:after {
+	right: 70px;
+	top:60px;
+    border-top-color:rgb(30, 100, 200);
+    border-width: 15px;
+  }
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+.login input[type='text'], .login input[type='password']
+{	box-sizing: border-box;
+	width: 100%;
+	height: 2.2em;
+	padding: 2px;
+	font-size: 14px;
+	border-radius: 3px;
+	border:none;
+	margin-bottom: .7em;
+}
+
+.login input[type='text']:active, 
+.login input[type='text']:focus,
+.login input[type='password']:focus,
+.login input[type='password']:active
+{outline: 2px solid white}
+.login input[type='submit']:active, input[type='submit']:focus{outline: none;}
+.login hr{
+	margin-top: .5em;margin-bottom: .6em;
+	border: 1.5px solid rgba(255,255,255,0.85);
+}
+.nocuenta
+	{
+		color: white;
+		width: 100%;
+		font-size: 15px;
+		font-family: 'Lato', sans;
+	}
+.nocuenta a{
+	text-decoration: none;
+	color: white;
+	font-weight: 800;
+	letter-spacing: 1.1px;
+}
+.button7{
+	
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	border: 3px solid rgba(255,255,255,.88);
+	position: relative;	
+}
+.login input[type='submit']:hover{
+	color:#4593e3;
+	-webkit-transition: all 0.4s;
+}
+.login input[type='submit']
+{	font-size: 19px;
+	color: white;
+	font-family: 'Lato', Arial;
+	position: relative;z-index:2;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background: transparent;
+	border:none;
+	cursor: pointer;
+}
+.button7::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	opacity: 0;
+	background-color: rgba(255,255,255,0.88);
+	-webkit-transition: all 0.4s;
+	-webkit-transform: scale(1, 0.5);
+	transform: scale(1, 0.5);
+}
+.button7:hover::before{
+	opacity: 1;
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
+}
+.sim-button{
+	height: 50px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 68%;
+	
+}
+#btn-menu{
+    display:none;
+}
+header .icon-paragraph-justify{
+    font-size:30px;
+    cursor:pointer;
+    display:none;
+}
+.menu{
+	margin: 0px 10px 0px 0px;
+    z-index:100 !important;
+}
+.menu .nul{
+    display:flex;
+    list-style:none;
+}
+.menu .nul ul{
+	z-index:100 !important;
+	width: 146px;
+	background:rgba(235, 235, 235, 1);
+    display:none;list-style:none;
+	
+}
+
+.menu .nul a{
+	display:flex;
+	align-items: center;
+	border-bottom: solid 2px rgba(39,39,39,0.45);
+	padding: 20px;
+	color:rgba(10,10,10,0.45);
+	font-weight: 800;
+	font-size: 18px;
+    text-decoration:none;
+	font-family: 'Josefin Sans', "Lato";
+}
+.menu .nul a:hover{
+    background:rgba(245, 245, 245, .9);
+	border-bottom: solid 2.3px rgba(39,39,39,.9);
+	color:rgba(39,39,39,0.80);
+	transition: .3s all ease;
+}
+.menu .nul ul a{
+	background:rgba(240, 240, 240, 1);
+	border:none}
+.menu .nul ul a:hover
+{	border: none;
+	background:rgba(230, 230, 230, 1);
+}
+.menu .nul a span{
+    margin-left:10px;
+}
+.menu .nul li:hover ul{
+    display:block;
+    position:absolute;
+    
+}
+#in{
+width: 150px;
+padding: 20px;
+	}
+.form-checkbox
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 5px;
+     outline: none;
+}
+.form-checkbox:checked::before
+{
+     position: absolute;
+     font: 18px/1 'Open Sans', sans-serif;
+     left: 10px;
+     top: 5px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.chk
+	{
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 7px;
+	}
+.form-checkbox:hover
+{
+     background-color: #f7f7f7;
+}
+.form-checkbox:checked
+{
+     background-color: #f1f1f1;
+}
+.chk label
+{
+     font: 300 17.4px/1.7 'Open Sans', sans-serif;
+     color: white;
+     cursor: pointer;
+} 
+@media(max-width:768px)
+	{
+		#in{width: auto;}
+		.login{
+			align-self: flex-start;
+			margin: 0;
+			float: inherit;
+		}
+		.menu .nul a{border: none}
+		.login:after {display: none}
+		#logo{
+    	flex-direction:row;
+    	flex-wrap:nowrap;
+    	position:absolute;
+		width: auto;
+		align-self: center;
+    	left:.56em;
+		}
+    	header .icon-paragraph-justify{
+    	    display:block;
+			margin-top: 6px;
+			margin-right: .56em;
+    	}
+    	.menu{
+    	    position:absolute;
+    	    top:45px;
+    	    left:0;
+    	    width:100%;
+    	    transform:translate(-100%);
+    	    transition:all 0.3s;
+    	}
+    	.menu .nul{
+    	    display:block;
+			background:rgba(248, 248, 248, 1);
+    	}
+		.menu .nul li:hover ul{
+    	    display:none;
+    	    position:static;
+			
+    	}
+		.menu .nul li ul li a{
+			line-height: 30px;
+		}
+    	#btn-menu:checked ~ .menu{
+    	    transform:translateX(0%);
+    	} 
+		
+		.menu .nul a:hover{
+    	border:none;
+		}
+    	.menu .nul ul{
+			width: 100%;
+		}
+    	.menu .nul ul a{
+    	    padding:15px 40px;
+    	}
+
+		.header2 .logofinal
+		{
+	
+		width: 150px;
+		height: 40px;
+		margin-top: 4px;
+		}
+		.header2{height: 45px;}
+		.cuenta{display: none;}
+		.cuenta2
+		{
+			font-family: 'Lato';
+			color: rgba(120,120, 120, .95);
+			font-size: 18px;
+			display: flex;
+			width: 100%;
+			justify-content: flex-start;
+			background: rgba(250,250,250,.96);
+			border-bottom: 1px solid #272727;
+		}
+		.cuenta2 li{padding: 5px;}
+		.cul li{text-align:left;}
+		.cuenta2 a{font-size: 20px;}
+		.cuenta2 .cul{list-style: none;width: 100%;}
+		hr{display: none;}
+		#usern{font-size: 26px;text-align: center;}
+		#submenuconfig li{width: 200px;padding: 5px;background:rgba(235, 235, 235, 1);}
+	}
+
