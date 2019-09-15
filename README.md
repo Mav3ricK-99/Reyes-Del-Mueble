@@ -1,5 +1,5 @@
 "# Reyes-Del-Mueble" 
 Developed By
->Federico Gutierrez
->Agustin Aquino
->Juan Irala
+>Federico Gutierrez.
+>Agustin Aquino.
+>Juan Irala.
